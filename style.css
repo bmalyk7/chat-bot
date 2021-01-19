@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.modal-box{
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    border: 30px solid blue;
+}
+
+.chat_area{
+    position: relative;
+    width: 340px;
+    height: 440px;
+    overflow: hidden;
+}
+
+.message-area{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+
+
+
+.text_bot{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 160px;
+    min-height: 20px;
+    background-color: gray;
+    color: white;
+    display: inline-block;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+
+.send_text{
+    width: 300px;
+}
+
+
+.choice_message{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 150px;
+    background-color:#32cd3294;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 10px;
+    cursor: pointer;
+}
